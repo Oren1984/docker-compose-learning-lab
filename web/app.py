@@ -1,3 +1,6 @@
+# Simple Flask web application for the Docker Compose learning lab
+# Exposes a single route returning a JSON hello message
+
 import os
 from flask import Flask, jsonify
 import pymysql
