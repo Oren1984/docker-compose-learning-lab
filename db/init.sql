@@ -1,3 +1,6 @@
+-- SQL initialization script for the Docker Compose learning lab
+-- Creates schema and seed data for the demo database
+
 -- Initialize schema and seed data
 CREATE TABLE IF NOT EXISTS users (
   id INT AUTO_INCREMENT PRIMARY KEY,
