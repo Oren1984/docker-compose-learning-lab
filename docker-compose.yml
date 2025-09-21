@@ -1,3 +1,6 @@
+# Docker Compose configuration for the learning lab
+# Defines web service (Flask app) and database service for practice
+
 version: "3.9"
 
 services:
