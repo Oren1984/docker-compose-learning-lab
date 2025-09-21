@@ -1,3 +1,6 @@
+# Dockerfile for the web service in the Docker Compose learning lab
+# Builds a minimal Python/Flask application container
+
 FROM python:3.11-slim
 
 WORKDIR /app
